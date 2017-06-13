@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav ul a,
+nav .brand-logo{color: #000;}
+nav ul a:hover{
+
+  background-color: #757575;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5) 
+}
+.brand-logo{
+  position: absolute;
+  font-size: 2rem;
+}
+
+.bg{height: 100vh;}
+.bgcolorg{background-image: linear-gradient(to bottom, #80cbc4, #009688);}
+
+.space{margin-top: 24vh;}
+.space2{margin-top: 7%;}
+
+.shadow{text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.6);}
+.shadow2{text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}
+
+.title{
+  font-weight: 500;
+  font-size: 7.5rem;
+}
+.title2{
+  font-weight: 400;
+  font-size: 2em;
+}
+.animated2{animation-duration: 3.1s;}
+
+
+.parallax-container .section{
+  width: 100%;
+  top: 0;
+}
+.parallaxhome, .parallaxworks{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxhome{
+    background-image: url('../img/bghome.jpg');
+    /*background-image: linear-gradient(to bottom, teal, #80cbc4);*/
+    min-height: 100%;
+}
+.parallaxworks{
+  background-image: url('../img/bgworks.jpg');
+  height: 250px;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
+.caption{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border{
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  font-size: 25px;
+  letter-spacing: 15px;
+}
+
+.container-skills{
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills{
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.HTML5{
+  width: 90%;
+  background-color: rgb(228, 77, 38);
+}
+.CSS3{
+  width: 80%;
+  background-color: rgb(0, 112, 187);
+}
+.JS{
+  width: 65%;
+  background-color: rgb(229, 162, 40);
+}
+.PHP{
+  width: 30%;
+  background-color: rgb(53, 80, 155);
+}
+.container2{
+  width: 95%;
+}
+
+.prof_name{
+  font-weight: 500;
+  font-size: 1.657rem;
+  letter-spacing: 0.3rem;
+  font-family: tahoma;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.descrip{
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.234rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: tahoma;
+}
+
+.input-field label {
+  color: #000;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+.input-field input[type=email]:focus + label {
+  color: #000;
+}
+.input-field textarea[name=message]:focus + label {
+  color: #000;
+}
+.input-field .prefix.active {
+  color: #000;
+}
